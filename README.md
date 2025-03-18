@@ -52,3 +52,52 @@ This project showcases expertise in data preprocessing, EDA, machine learning, d
 
 
 
+# DSML Capstone: Heart Disease Prediction
+
+## Project Overview
+This capstone project focuses on building a robust predictive model to assess the likelihood of heart disease in patients. Leveraging a large and imbalanced dataset, various machine learning techniques were employed to improve prediction accuracy. The project involved extensive data preprocessing, feature engineering, and model evaluation to enhance performance.
+
+## Data Science Methodology
+
+### 1. Data Collection & Preprocessing
+- **Dataset:** Acquired a heart disease dataset containing over 300,000 patient records.
+- **Data Cleaning:** Handled missing values and removed inconsistencies.
+- **Feature Engineering:** Converted categorical variables into numerical format and scaled continuous features.
+- **Handling Imbalance:** Applied **SMOTE (Synthetic Minority Over-sampling Technique)** and **downsampling** to balance the dataset.
+
+### 2. Exploratory Data Analysis (EDA)
+- **Correlation Analysis:** Assessed relationships between key risk factors such as smoking, cholesterol levels, and blood pressure.
+- **Statistical Insights:** Used chi-square tests and ANOVA to understand significant predictors.
+- **Visualization:** Created histograms, scatter plots, and heatmaps to uncover trends in heart disease occurrence.
+
+### 3. Model Development
+- **Baseline Models:** Implemented Logistic Regression and Decision Trees as initial benchmarks.
+- **Advanced Models:** Developed **Random Forest, XGBoost, and Neural Networks** for improved accuracy.
+- **Deep Learning:** Integrated a **multi-layer perceptron (MLP) neural network** to enhance prediction capabilities.
+- **Hyperparameter Tuning:** Used Grid Search and Randomized Search to optimize model parameters.
+
+### 4. Model Evaluation
+- **Performance Metrics:**
+  - Achieved **ROC-AUC: 0.83** using the best-performing model.
+  - Compared models using Precision, Recall, F1-score, and Confusion Matrices.
+- **Feature Importance:**
+  - Identified top predictive features using SHAP values and permutation importance.
+  - Key factors: Age, Cholesterol, Smoking, and Blood Pressure.
+- **Cross-Validation:** Applied k-fold cross-validation to ensure model generalizability.
+
+### 5. Results & Insights
+- The **Random Forest model** provided strong interpretability with a balance of precision and recall.
+- **Deep learning models** improved overall ROC-AUC but required careful tuning due to overfitting risks.
+- Key Takeaway: **Feature selection and handling class imbalance significantly impacted model performance.**
+
+## Future Work
+- **Enhancing Feature Engineering:** Investigate additional medical variables to improve model accuracy.
+- **Deploying the Model:** Convert the trained model into an API for real-world applications.
+- **Exploring Explainability:** Utilize LIME and SHAP more extensively for black-box models like deep learning.
+
+## Contact
+For further discussion or collaboration, feel free to connect via [LinkedIn] or reach out through GitHub.
+
+---
+
+This project showcases expertise in **data preprocessing, EDA, machine learning, deep learning, and model interpretability**, making it a valuable portfolio piece for Data Science roles.
