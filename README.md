@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 DSML Capstone: Heart Disease Prediction
+=======
+Heart Disease DataScience/Machine Learning Capstone for CodingNomads
+>>>>>>> 4989cb5 (Update README.md)
 
 ![Heart Giphy](https://github.com/user-attachments/assets/9ec55a36-5020-4297-b900-e7176bfe13d1)
 
