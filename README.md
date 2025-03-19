@@ -11,23 +11,23 @@ This capstone project focuses on building a robust predictive model to assess th
 
 ## Data Science Methodology
 
-### 1. Data Collection & Preprocessing (Book1, Book2)
-- **Dataset:** Acquired a heart disease dataset from the Centre for Disease Control (CDC) on the Kaggle webiste (link) containing over 300,000 patient records.
+### 1. Data Collection & Preprocessing [Book1](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/1.%20Exploratory%20Data%20Analysis.ipynb), [Book2](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/2.%20Binary%20Conversion.ipynb)
+- **Dataset:** Acquired a heart disease dataset from the Centre for Disease Control (CDC), on the [Kaggle](www.kaggle.com) website, containing over 300,000 patient records.
 - **Data Cleaning:** Handled missing values and removed inconsistencies.
-- **Data Conversion:** Yes and No responses were converted to 1 and 0, respectively to facilitate analysis (Book2).
+- **Data Conversion:** Yes and No responses were converted to 1 and 0, respectively to facilitate analysis [Book2](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/2.%20Binary%20Conversion.ipynb).
 - **Feature Engineering:** Converted categorical variables into numerical format and scaled continuous features.
-- **Handling Imbalance:** Applied **SMOTE (Synthetic Minority Over-sampling Technique)** (Book5) and **downsampling** (Book4) to balance the dataset.
+- **Handling Imbalance:** Applied **SMOTE (Synthetic Minority Over-sampling Technique)** [Book5](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/5.%20SMOTE.ipynb) and **downsampling** [Book4](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/4.%20Downsampling.ipynb) to balance the dataset.
 
-### 2. Exploratory Data Analysis (EDA, Book1)
+### 2. Exploratory Data Analysis (EDA) [Book1](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/1.%20Exploratory%20Data%20Analysis.ipynb)
 - **Correlation Analysis:** Assessed relationships between risk factors (smoking, alcohol drinking, gender, race and other medical conditions).
 - **Statistical Insights:** Used chi-square tests, Cramer's V and Contingency Tables to understand significant predictors.
 - **Visualization:** Created histograms, bar graphs, pie graphs and heatmaps to uncover trends in heart disease occurrence.
 
 ### 3. Model Development
 - **Baseline Models:** Implemented Logistic Regression and Decision Trees as initial benchmarks.
-- **Advanced Models:** Developed **Random Forest** (Book3), **XGBoost, and Neural Networks** for improved accuracy.
-- **Deep Learning:** Integrated a **multi-layer perceptron (MLP) neural network** (Book4) to enhance prediction capabilities.
-- **Hyperparameter Tuning:** Used Grid Search, Randomized Search and Balanced Random Forest (Book6) to optimize model parameters.
+- **Advanced Models:** Developed **Random Forest** [Book3](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/3.%20Random%20Forest%20Classifier%20-%20Imbalance.ipynb), **XGBoost, and Neural Networks** for improved accuracy.
+- **Deep Learning:** Integrated a **multi-layer perceptron (MLP) neural network** [Book4](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/4.%20Downsampling.ipynb) to enhance prediction capabilities.
+- **Hyperparameter Tuning:** Used Grid Search, Randomized Search and Balanced Random Forest [Book6](https://github.com/FrankF2025/DSML_Capstone_Heart_Disease/blob/main/6.%20Balanced%20Random%20Forest%20Classifier%20%26%20AUC.ipynb) to optimize model parameters.
 
 ### 4. Model Evaluation
 - **Performance Metrics:**
